@@ -1,0 +1,38 @@
+.h1,.h2{
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.button {
+    font-family: var(--cp-font-family);
+    -webkit-appearance: none;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+    font-family: inherit;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none!important;
+    font-weight: 400!important;
+    cursor: pointer;
+    background: var(--cp-button-bg);
+    color: var(--cp-button-color);
+    padding: var(--cp-button-padding);
+    margin: var(--cp-button-margin);
+    border-radius: var(--cp-button-border-radius);
+    border: var(--cp-button-border-width) solid transparent;
+    --cp-button-padding: var(--cp-button-padding-block) var(--cp-button-padding-inline);
+    --cp-button-margin: var(--cp-button-margin-block) var(--cp-button-margin-inline) var(--cp-button-margin-block) 0;
+}
